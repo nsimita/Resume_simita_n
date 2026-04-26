@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+}
+
+.resume-container {
+    background: white;
+    width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f2d7d5; /* The pale pink/nude color */
+    padding: 40px 30px;
+}
+
+.profile-img-container {
+    border: 8px solid white;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.profile-img-container img {
+    width: 100%;
+    display: block;
+}
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-section h3 {
+    background: white;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sidebar-section p, .sidebar-section li {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 50px 40px;
+}
+
+.header-name {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #e0c3c1;
+    padding-bottom: 20px;
+}
+
+.header-name h1 {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+.section-title {
+    background-color: #f2d7d5;
+    padding: 5px 15px;
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience-item, .edu-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h4, .edu-item h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.company {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #666;
+    margin: 3px 0;
+}
+
+.main-content ul {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
